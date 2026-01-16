@@ -43,4 +43,4 @@ A multi-threaded HTTP/1.1 proxy server compliant with RFC 7230 standards.
 * **Systems:** Linux (Ubuntu), Docker, Git, Bash, TCP/IP, Valgrind
 
 ---
-[LinkedIn](www.linkedin.com/in/qi-l-4b2176380) • [Email](comttor.lin@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/qi-l-4b2176380) • [Email](mailto:comttor.lin@gmail.com)
