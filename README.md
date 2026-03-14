@@ -36,10 +36,10 @@ An autonomous agent optimized for strict memory and time constraints.
 * [**View Repository**](https://github.com/qllin2/high-perf-game-ai-agent)
 
 **4. High-Performance HTTP Proxy**
-![C](https://img.shields.io/badge/-C-black?style=flat&logo=c) ![Network](https://img.shields.io/badge/-Socket-black?style=flat)
-A multi-threaded HTTP/1.1 proxy server compliant with RFC 7230 standards.
-* **Highlight:** Engineered a custom **LRU Caching Engine** to cache web responses under strict memory constraints.
-* **Features:** Handles **Dual-stack (IPv4/IPv6)** networking and complex `Cache-Control` headers.
+![C](https://img.shields.io/badge/-C-black?style=flat&logo=c) ![Network](https://img.shields.io/badge/-Socket-black?style=flat)  
+A HTTP/1.1 caching proxy server implemented in C with manual header parsing and dual-stack networking support.  
+* **Highlight:** Engineered a custom **LRU caching engine** to cache HTTP responses under strict per-entry memory limits (~100KB) with manual memory management.
+* **Features:** Supports **dual-stack (IPv4/IPv6)** via BSD sockets and respects complex `Cache-Control` directives (e.g., `private`, `no-store`, `must-revalidate`, `max-age`).
 * [**View Repository**](https://github.com/qllin2/http-proxy-server-c)
 
 **5. Virtual Memory Management Simulator**
