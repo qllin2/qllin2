@@ -10,7 +10,7 @@ I bridge the gap between low-level efficiency (C/C++) and high-level structural 
 
 #### Architecture & Design
 
-**1. Java Architecture & Design Patterns Portfolio**
+**1. Enterprise Java Architecture & Refactoring**
 ![Java](https://img.shields.io/badge/-Java-orange?style=flat&logo=java) ![Design Patterns](https://img.shields.io/badge/-Design%20Patterns-red?style=flat) ![Refactoring](https://img.shields.io/badge/-Refactoring-blue?style=flat)
 A showcase of advanced OOD skills featuring **Legacy System Refactoring** (Pinochle) and **Concurrent Simulation** (Drone Delivery).
 * **Key Tech:** Strategy, Factory, Singleton patterns, GRASP Principles.
@@ -28,14 +28,14 @@ A feature-rich game engine built from scratch on top of the Bagel framework.
 
 #### Systems & High Performance
 
-**3. High-Performance Game AI Agent**
+**3. Bitboard-Optimized Adversarial AI Engine**
 ![Python](https://img.shields.io/badge/-Python-blue?style=flat&logo=python) ![Algorithms](https://img.shields.io/badge/-Algorithms-green?style=flat) ![Optimization](https://img.shields.io/badge/-Optimization-red?style=flat)
 An autonomous agent optimized for strict memory and time constraints.
 * **Optimization:** Engineered **Bitboard** representation (bitwise ops) and **Zobrist Hashing** ($O(1)$ lookup).
 * **Algorithms:** Implemented **IDDFS**, **Alpha-Beta Pruning**, and **A* Search** with a custom Backward-BFS heuristic.
 * [**View Repository**](https://github.com/qllin2/high-perf-game-ai-agent)
 
-**4. High-Performance HTTP Proxy**
+**4. Zero-Dependency Bare-Metal HTTP Proxy**
 ![C](https://img.shields.io/badge/-C-black?style=flat&logo=c) ![Network](https://img.shields.io/badge/-Socket-black?style=flat)  
 A HTTP/1.1 caching proxy server implemented in C with manual header parsing and dual-stack networking support.  
 * **Highlight:** Engineered a custom **LRU caching engine** to cache HTTP responses under strict per-entry memory limits (~100KB) with manual memory management.
