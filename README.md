@@ -10,14 +10,14 @@ I bridge the gap between low-level system efficiency (C/C++) and high-level full
 
 **1. Academic Marker Moderation System**
 ![React](https://img.shields.io/badge/-React-black?style=flat&logo=react) ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat&logo=nodedotjs) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat&logo=postgresql)
-A commercial-grade grading platform used by university staff.
+A commercial-grade grading platform used by university staff (University Capstone / Team Repo).
 * **Role:** Full-Stack Developer (Client Project).
 * **Highlight:** Engineered secure RESTful APIs and orchestrated data pipelines, integrating AWS S3 for scalable document storage and JWT-based RBAC.
 * [**View Repository**](https://github.com/Ricky042/MarkingApp)
 
 **2. Enterprise Java Architecture & Refactoring**
 ![Java](https://img.shields.io/badge/-Java-orange?style=flat&logo=java) ![Design Patterns](https://img.shields.io/badge/-Design%20Patterns-red?style=flat) ![Refactoring](https://img.shields.io/badge/-Refactoring-blue?style=flat)
-A showcase of advanced OOD skills featuring **Legacy System Refactoring** (Pinochle) and **Concurrent Simulation** (Drone Delivery).
+A showcase of advanced OOD skills featuring Legacy System Refactoring (Pinochle) and Concurrent Simulation (Drone Delivery).
 * **Key Tech:** Strategy, Factory, Singleton patterns, GRASP Principles.
 * **Highlight:** Decoupled monolithic "God Classes" into modular, testable components using polymorphic interfaces.
 * [**View Repository**](https://github.com/qllin2/software-architecture-portfolio)
@@ -25,28 +25,29 @@ A showcase of advanced OOD skills featuring **Legacy System Refactoring** (Pinoc
 **3. Zero-Dependency Bare-Metal HTTP Proxy**
 ![C](https://img.shields.io/badge/-C-black?style=flat&logo=c) ![Network](https://img.shields.io/badge/-Socket-black?style=flat)  
 A HTTP/1.1 caching proxy server implemented in C with manual header parsing and dual-stack networking support.  
-* **Highlight:** Engineered a custom **LRU caching engine** to cache HTTP responses under strict per-entry memory limits (~100KB) with manual memory management.
-* **Features:** Supports **dual-stack (IPv4/IPv6)** via BSD sockets and respects complex `Cache-Control` directives (e.g., `private`, `no-store`, `must-revalidate`, `max-age`).
+* **Key Tech:** C (C99), BSD Sockets, Manual Memory Management, Dual-stack (IPv4/IPv6).
+* **Highlight:** Engineered a custom LRU caching engine to cache HTTP responses under strict memory limits, respecting complex `Cache-Control` directives.
 * [**View Repository**](https://github.com/qllin2/http-proxy-server-c)
 
 **4. Bitboard-Optimized Adversarial AI Engine**
 ![Python](https://img.shields.io/badge/-Python-blue?style=flat&logo=python) ![Algorithms](https://img.shields.io/badge/-Algorithms-green?style=flat) ![Optimization](https://img.shields.io/badge/-Optimization-red?style=flat)
 An autonomous agent optimized for strict memory and time constraints.
-* **Optimization:** Engineered **Bitboard** representation (bitwise ops) and **Zobrist Hashing** ($O(1)$ lookup).
-* **Algorithms:** Implemented **IDDFS**, **Alpha-Beta Pruning**, and **A* Search** with a custom Backward-BFS heuristic.
+* **Key Tech:** Python, Bitwise Operations, IDDFS, Alpha-Beta Pruning.
+* **Highlight:** Engineered Bitboard representation and Zobrist Hashing for $O(1)$ state lookups, achieving highly efficient adaptive time management.
 * [**View Repository**](https://github.com/qllin2/high-perf-game-ai-agent)
 
 **5. Virtual Memory Management Simulator**
 ![C](https://img.shields.io/badge/-C-black?style=flat&logo=c) ![Systems](https://img.shields.io/badge/-Systems-gray?style=flat)
 A hardware-level simulation of a Memory Management Unit (MMU).
-* **Core:** Implemented **Hierarchical Page Tables** and **TLB** with custom eviction policies.
+* **Key Tech:** C, Operating Systems Concepts, Memory Management.
+* **Highlight:** Implemented Hierarchical Page Tables and a Translation Lookaside Buffer (TLB) with custom LRU eviction policies.
 * [**View Repository**](https://github.com/qllin2/virtual-memory-simulator)
 
 **6. Shadow Mario: 2D Platformer Engine**
 ![Java](https://img.shields.io/badge/-Java-orange?style=flat&logo=java) ![Game Dev](https://img.shields.io/badge/-Game%20Dev-green?style=flat) ![OOD](https://img.shields.io/badge/-OOD-blue?style=flat)
 A feature-rich game engine built from scratch on top of the Bagel framework.
-* **Highlight:** Implemented **AABB Collision Detection**, **Projectile Physics**, and a polymorphic entity system.
-* **Visuals:** Features complex Boss AI logic and dynamic level parsing (CSV).
+* **Key Tech:** Java, Object-Oriented Design (OOD), CSV Parsing.
+* **Highlight:** Implemented AABB collision detection, projectile physics, and a polymorphic entity system featuring complex Boss AI logic.
 * [**View Repository**](https://github.com/qllin2/java-2d-platformer)
 
 
