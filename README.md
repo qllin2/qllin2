@@ -15,12 +15,12 @@ A commercial-grade grading platform used by university staff (University Capston
 * **Highlight:** Engineered secure RESTful APIs and orchestrated data pipelines, integrating AWS S3 for scalable document storage and JWT-based RBAC.
 * [**View Repository**](https://github.com/Ricky042/MarkingApp)
 
-**2. Enterprise Java Architecture & Refactoring**
-![Java](https://img.shields.io/badge/-Java-orange?style=flat&logo=java) ![Design Patterns](https://img.shields.io/badge/-Design%20Patterns-red?style=flat) ![Refactoring](https://img.shields.io/badge/-Refactoring-blue?style=flat)
-A showcase of advanced OOD skills featuring Legacy System Refactoring (Pinochle) and Concurrent Simulation (Drone Delivery).
-* **Key Tech:** Strategy, Factory, Singleton patterns, GRASP Principles.
-* **Highlight:** Decoupled monolithic "God Classes" into modular, testable components using polymorphic interfaces.
-* [**View Repository**](https://github.com/qllin2/software-architecture-portfolio)
+**2. Autonomous Drone Delivery Simulation Engine**  
+![Java](https://img.shields.io/badge/-Java-orange?style=flat&logo=java) ![Gradle](https://img.shields.io/badge/-Gradle-02303A?style=flat&logo=gradle) ![Simulation](https://img.shields.io/badge/-Discrete%20Event%20Simulation-blue?style=flat)  
+A concurrent drone-delivery simulation platform built in Java, modeling dispatch, routing, and traffic arbitration under urban congestion scenarios.  
+* **Key Tech:** Discrete-event simulation, state machine design, priority scheduling, anti-starvation arbitration, Swing visualization.  
+* **Highlight:** Designed a modular architecture that separates simulation loop, dispatch center, and drone behavior, enabling reproducible scenario-based experiments and easier extension.  
+* [**View Repository**](https://github.com/qllin2/Autonomous-Drone-Delivery-Simulation-Engine)
 
 **3. Zero-Dependency Bare-Metal HTTP Proxy**
 ![C](https://img.shields.io/badge/-C-black?style=flat&logo=c) ![Network](https://img.shields.io/badge/-Socket-black?style=flat)  
