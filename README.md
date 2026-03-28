@@ -24,7 +24,7 @@ A concurrent drone-delivery simulation platform built in Java, modeling dispatch
 * **Highlight:** Designed a modular architecture that separates simulation loop, dispatch center, and drone behavior, enabling reproducible scenario-based experiments and easier extension.  
 * [**View Repository**](https://github.com/qllin2/Autonomous-Drone-Delivery-Simulation-Engine)
 
-**3. Zero-Dependency Bare-Metal HTTP Proxy**
+**3. HTTP Caching Proxy Service**
 ![C](https://img.shields.io/badge/-C-black?style=flat&logo=c) ![Network](https://img.shields.io/badge/-Socket-black?style=flat)
 
 A HTTP/1.1 caching proxy server implemented in C with manual header parsing and dual-stack networking support.  
