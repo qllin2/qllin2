@@ -13,15 +13,15 @@ I bridge the gap between low-level system efficiency (C/C++) and high-level full
 
 A commercial-grade grading platform used by university staff (University Capstone / Team Repo).
 * **Role:** Full-Stack Developer (Client Project).
-* **Highlight:** Engineered secure RESTful APIs and orchestrated data pipelines, integrating AWS S3 for scalable document storage and JWT-based RBAC.
+* **Highlight:** Migrated full-stack to AWS — provisioning RDS, S3, SES (DKIM/DMARC via Route 53), Amplify with CI/CD, and EC2 with PM2. Engineered secure RESTful APIs with JWT-based RBAC and bcrypt password hashing.
 * [**View Repository**](https://github.com/Ricky042/MarkingApp)
 
 **2. Autonomous Drone Delivery Simulation Engine**
 ![Java](https://img.shields.io/badge/-Java-orange?style=flat&logo=java) ![Gradle](https://img.shields.io/badge/-Gradle-02303A?style=flat&logo=gradle) ![Simulation](https://img.shields.io/badge/-Discrete%20Event%20Simulation-blue?style=flat)
 
-A concurrent drone-delivery simulation platform built in Java, modeling dispatch, routing, and traffic arbitration under urban congestion scenarios.  
-* **Key Tech:** Discrete-event simulation, state machine design, priority scheduling, anti-starvation arbitration, Swing visualization.  
-* **Highlight:** Designed a modular architecture that separates simulation loop, dispatch center, and drone behavior, enabling reproducible scenario-based experiments and easier extension.  
+A cloud-native simulation engine deployed on AWS ECS Fargate, featuring an Apache Kafka event-driven telemetry pipeline, OpenAI GPT-4o-mini business insights integration, and a React/TypeScript dashboard with real-time SSE visualisation.
+* **Key Tech:** Java, Spring Boot, Apache Kafka, AWS ECS Fargate, Docker, OpenAI API, React, TypeScript
+* **Highlight:** Replaced in-memory telemetry with Kafka (Amazon MSK in production) via pluggable @Profile-activated implementations; deployed with multi-stage Docker build, ECR, and CloudWatch logging. 
 * [**View Repository**](https://github.com/qllin2/Autonomous-Drone-Delivery-Simulation-Engine)
 
 **3. HTTP Caching Proxy Service**
