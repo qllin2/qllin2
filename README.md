@@ -14,7 +14,7 @@ I bridge the gap between low-level system efficiency (C/C++) and high-level full
 A commercial-grade grading platform used by university staff (University Capstone / Team Repo).
 * **Role:** Full-Stack Developer (Client Project).
 * **Highlight:** Migrated full-stack to AWS — provisioning RDS, S3, SES (DKIM/DMARC via Route 53), Amplify with CI/CD, and EC2 with PM2. Engineered secure RESTful APIs with JWT-based RBAC and bcrypt password hashing.
-* [**View Repository**](https://github.com/Ricky042/MarkingApp)
+* [**View Repository**](https://github.com/qllin2/MarkingApp)
 
 **2. Autonomous Drone Delivery Simulation Engine**
 ![Java](https://img.shields.io/badge/-Java-orange?style=flat&logo=java) ![Gradle](https://img.shields.io/badge/-Gradle-02303A?style=flat&logo=gradle) ![Simulation](https://img.shields.io/badge/-Discrete%20Event%20Simulation-blue?style=flat)
